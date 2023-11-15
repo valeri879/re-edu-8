@@ -1,0 +1,132 @@
+.container {
+    width: 100%;
+    margin: auto;
+    padding-inline: 15px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: gray;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 10px;
+}
+
+.nav-link {
+    display: none;
+}
+
+.download-search-box {
+    display: none;
+}
+
+.search-box {
+    border: 1px solid red;
+}
+
+.search-box button {
+    background: transparent;
+    border: 0;
+}
+
+.search-box input {
+    width: 70px;
+    background-color: transparent;
+    border: 0;
+}
+.notification {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+.notification a {
+    color: aqua;
+}
+
+.welcome-section {
+    background-color: gray;
+}
+
+.welcome-section h1 {
+    margin: 0;
+}
+
+.tooltip {
+    position: relative;
+    background-color: #333;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    top: -5px;
+    right: 15px;
+    transform: rotate(45deg);
+}
+
+.features-section .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.features-section .container > div {
+    padding: 30px;
+}
+
+.features-section span {
+    display: block;
+    text-align: center;
+}
+
+.testimonials-section {
+    padding-block: 30px;
+    background-color: #f5f5f5;
+}
+
+.testimonials-section .card {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 72px auto;
+}
+
+.testimonials-section .container {
+    display: grid;
+    gap: 15px;
+}
+.testimonials-section img {
+    border-radius: 100%;
+}
+.testimonials-section h6 {
+    margin: 0;
+}

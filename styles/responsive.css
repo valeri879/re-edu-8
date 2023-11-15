@@ -1,0 +1,49 @@
+/* responsive */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .nav-link {
+        display: initial;
+    }
+
+    .download-search-box {
+        display: initial;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .download-link {
+        display: flex;
+        align-items: center;
+        background: dodgerblue;
+        color: white;
+        gap: 10px;
+        padding-inline: 15px;
+    }
+
+    .search-box,
+    .download-search-box {
+        display: flex;
+    }
+    .welcome-section .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .features-section .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .testimonials-section .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
